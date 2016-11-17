@@ -26,8 +26,8 @@ public class Putadon {
 		
 		//Buscamos las letras
 		for(int i=0;i<frase.length();i++){
-			if(letra==frase.charAt(i)){
-				numRepeticiones++;
+			if(letra==frase.charAt(i-1)){
+				++numRepeticiones;
 				System.out.println("Letra "+letra+" encontrada en la posicion "+i);
 			}
 		}
