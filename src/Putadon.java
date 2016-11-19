@@ -7,7 +7,7 @@ import java.util.Scanner;
  * El siguiente código busca una letra dentro de una frase
  * y devuelve dónde se ha encontrado y ctas veces
  * 
- * 
+ * Hay dos errores
  * 
  */
 public class Putadon {
@@ -31,7 +31,7 @@ public class Putadon {
 		//Buscamos las letras
 		for(int i=0;i<frase.length();i++){
 			if(letra==frase.charAt(i-1)){
-				++numRepeticiones;
+				numRepeticiones=numRepeticiones;
 				System.out.println("Letra "+letra+" encontrada en la posicion "+i);
 			}
 		}
