@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Hay dos errores
  * 
  */
-public class Putadon {
+public class Examen {
 	
 	public static void main(String[] args) {
 		//Variables inicialización
@@ -38,4 +38,7 @@ public class Putadon {
 		System.out.println("Total repeticiones "+numRepeticiones);
 	
 	}
+	
+		
+	
 }
